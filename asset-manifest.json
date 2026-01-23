@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nutritions_calculator/static/css/main.b723b266.css",
+    "main.js": "/nutritions_calculator/static/js/main.3d9e1696.js",
+    "index.html": "/nutritions_calculator/index.html",
+    "main.b723b266.css.map": "/nutritions_calculator/static/css/main.b723b266.css.map",
+    "main.3d9e1696.js.map": "/nutritions_calculator/static/js/main.3d9e1696.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b723b266.css",
+    "static/js/main.3d9e1696.js"
+  ]
+}
