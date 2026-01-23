@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Deployment to GH pages
+
+1. Run `npm install --save-dev gh-pages`
+
+2. Add to `package.json`
+    - `"homepage": "https://dzuris.github.io/nutritions-calculator/",`
+    - Into `scripts`:
+```
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build"
+```
+
+3. Deploy
+Run `npm run deploy`
