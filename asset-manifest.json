@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nutritions-calculator/static/css/main.b723b266.css",
-    "main.js": "/nutritions-calculator/static/js/main.3d9e1696.js",
+    "main.css": "/nutritions-calculator/static/css/main.c2939be3.css",
+    "main.js": "/nutritions-calculator/static/js/main.51f9d45b.js",
     "index.html": "/nutritions-calculator/index.html",
-    "main.b723b266.css.map": "/nutritions-calculator/static/css/main.b723b266.css.map",
-    "main.3d9e1696.js.map": "/nutritions-calculator/static/js/main.3d9e1696.js.map"
+    "main.c2939be3.css.map": "/nutritions-calculator/static/css/main.c2939be3.css.map",
+    "main.51f9d45b.js.map": "/nutritions-calculator/static/js/main.51f9d45b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b723b266.css",
-    "static/js/main.3d9e1696.js"
+    "static/css/main.c2939be3.css",
+    "static/js/main.51f9d45b.js"
   ]
 }
