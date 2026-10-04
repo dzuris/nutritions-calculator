@@ -2,14 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/logo.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.ico" sizes="32x32" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.svg" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#eef0f6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12141a" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
     <meta
       name="description"
-      content="Web site for calculating food nutritions"
+      content="Scale food nutrition values to the grams you actually eat."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.svg" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
+    <meta name="application-name" content="Nutrition" />
+    <meta name="apple-mobile-web-app-title" content="Nutrition" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +32,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Nutritions Calculator</title>
+    <title>Nutrition Calculator</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

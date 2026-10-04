@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Nutrition Calculator
+
+Scale food nutrition values to the grams you actually eat. Live at https://dzuris.github.io/nutritions-calculator/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
